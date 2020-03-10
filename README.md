@@ -1,6 +1,6 @@
 # username-generator
 Have you ever struck with username choosing? Let me show you something..
-http://nbrylev.github.io/username-generator
+http://nbrylev.github.io/projects/username-generator
 
 ---
 
