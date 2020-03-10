@@ -4,24 +4,15 @@ http://nbrylev.github.io/projects/username-generator
 
 ## WORK IN PROGRESS
 [x] JS-version
-
-[] Make page more beautiful
-
-[] Make generator more generatable
-
-[] Save input values (GET-like)
-
-[] Watch input changes and update result without pressing "Generate" button
-
-[] Auto-generating
-
-[] (?) NodeJS with Express
-
-[] (?) sass/scss
-
-[] (?) TS-version
-
-[] (?) Use any framework
+[ ] Make page more beautiful
+[ ] Make generator more generatable
+[ ] Save input values (GET-like)
+[ ] Watch input changes and update result without pressing "Generate" button
+[ ] Auto-generating
+[ ] (?) NodeJS with Express
+[ ] (?) sass/scss
+[ ] (?) TS-version
+[ ] (?) Use any framework
 
 
 ## CHANGELOG:
