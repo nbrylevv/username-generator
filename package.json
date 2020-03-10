@@ -1,0 +1,23 @@
+{
+  "name": "username-generator",
+  "version": "1.0.0",
+  "description": "Have you ever struck with username choosing? Let me show you something..",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nbrylev/username-generator.git"
+  },
+  "keywords": [
+    "username",
+    "nickname",
+    "generator",
+    "randomizer"
+  ],
+  "author": "Nikita Brylev <https://github.com/nbrylev> (http://nbrylev.github.io/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nbrylev/username-generator/issues"
+  },
+  "homepage": "https://github.com/nbrylev/username-generator#readme"
+}

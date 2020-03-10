@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #f1f1f1;
+}
+
+.app {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 5px;
+}
+
+.generator-form {
+  width: calc(50% - 10px);
+  padding: 20px;
+  background: #fff;
+}
+
+.generator-form__label {
+  display: block;
+}
+
+.generator-form__label:not(:last-of-type) {
+  margin-bottom: 10px;
+}
+
+.generator-form__label_settings {
+  display: flex;
+  align-items: center;
+}
+
+.generator-form__input {
+  display: block;
+  min-width: 200px;
+  height: 40px;
+}
+
+.generator-form__button {
+  min-width: 200px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.generator-form__additional-settings {
+  margin-top: 10px;
+}
+
+.generator-result {
+  width: calc(50% - 10px);
+  padding: 20px;
+  text-align: center;
+  background: #fff;
+}
+
+.generator-result__value {
+  display: block;
+  font-size: 200%;
+}

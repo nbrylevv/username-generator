@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="app">
+    <form class="generator-form"
+          id="generator-form"
+          onsubmit="event.preventDefault()">
+      <label for="input1"
+             class="generator-form__label">
+        Word one*
+        <input id="input1"
+               class="generator-form__input"
+               type="text"
+               data-role="input"
+               placeholder="Anything you want"
+               required>
+      </label>
+      <label for="input2"
+             class="generator-form__label">
+        Word two*
+        <input id="input2"
+               class="generator-form__input"
+               type="text"
+               data-role="input"
+               placeholder="Anything you want"
+               required>
+      </label>
+      <label for="input3"
+             class="generator-form__label">
+        Word three*
+        <input id="input3"
+               class="generator-form__input"
+               type="text"
+               data-role="input"
+               placeholder="Anything you want">
+      </label>
+      <button id="generator-button"
+              class="generator-form__button">Generate</button>
+      <div class="generator-form__additional-settings">
+        <label for="shuffle-checkbox"
+               class="generator-form__label generator-form__label_settings ">
+          <input id="shuffle-checkbox"
+                 type="checkbox"
+                 checked>
+          Shuffle words
+        </label>
+      </div>
+    </form>
+    <div class="generator-result">
+      Result
+      <span id="generator-result"
+            class="generator-result__value">
+        [ press Generate ]
+      </span>
+    </div>
+  </div>
+  <script type="application/javascript" src="js/username-generator.js"></script>
+</body>
+</html>
