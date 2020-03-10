@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap&subset=cyrillic');
+
+:root {
+  --color-red: #e8584e;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -5,27 +11,38 @@
 body {
   margin: 0;
   padding: 0;
-  background: #f1f1f1;
+  background: #f5f5f5;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
 }
 
 .app {
   display: flex;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
   padding: 10px 5px;
 }
 
 .generator-form {
-  width: calc(50% - 10px);
   padding: 20px;
   background: #fff;
+  box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.1);
 }
 
 .generator-form__label {
   display: block;
+  font-size: 14px;
+  cursor: pointer;
 }
 
 .generator-form__label:not(:last-of-type) {
   margin-bottom: 10px;
+}
+
+.generator-form__label-asterix {
+  color: var(--color-red);
 }
 
 .generator-form__label_settings {
@@ -33,16 +50,49 @@ body {
   align-items: center;
 }
 
-.generator-form__input {
-  display: block;
-  min-width: 200px;
-  height: 40px;
+.generator-form__label .generator-form__input {
+  margin-top: 4px;
 }
 
-.generator-form__button {
-  min-width: 200px;
+.generator-form__input {
+  display: block;
+  min-width: 250px;
   height: 40px;
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+.generator-form__controls {
+  display: flex;
+  align-items: center;
   margin-top: 20px;
+}
+
+.generator-form__submit {
+  display: block;
+  width: 100%;
+  height: 48px;
+  font-size: 16px;
+  color: #fff;
+  border: 1px solid transparent;
+  background: var(--color-red);
+  cursor: pointer;
+  transition: all 0.1s ease-in-out 0s;
+}
+
+.generator-form__submit:hover {
+  color: var(--color-red);
+  background: transparent;
+  border-color: var(--color-red);
+}
+
+.generator-form__reset {
+  height: 32px;
+  margin-left: 10px;
+  font-size: 14px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
 }
 
 .generator-form__additional-settings {
@@ -50,13 +100,23 @@ body {
 }
 
 .generator-result {
-  width: calc(50% - 10px);
+  width: calc(50% - 20px);
   padding: 20px;
   text-align: center;
-  background: #fff;
+  font-size: 30px;
+}
+
+.generator-result__hint {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.generator-result__greetings {
+  display: none;
 }
 
 .generator-result__value {
   display: block;
-  font-size: 200%;
+  font-size: 250%;
+  font-weight: 600;
 }
