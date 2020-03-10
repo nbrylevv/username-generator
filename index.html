@@ -6,16 +6,23 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/style.css">
-  <title>Document</title>
+  <script type="application/javascript" src="js/username-generator.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      new window.UsernameGenerator();
+    });
+  </script>
+  <title>Username Generator</title>
 </head>
 <body>
   <div class="app">
     <form class="generator-form"
           id="generator-form"
+          autocomplete="off"
           onsubmit="event.preventDefault()">
       <label for="input1"
              class="generator-form__label">
-        Word one*
+        Word one<span class="generator-form__label-asterix">*</span>
         <input id="input1"
                class="generator-form__input"
                type="text"
@@ -25,25 +32,30 @@
       </label>
       <label for="input2"
              class="generator-form__label">
-        Word two*
+        Word two
         <input id="input2"
                class="generator-form__input"
                type="text"
                data-role="input"
-               placeholder="Anything you want"
-               required>
+               placeholder="Anything you want">
       </label>
       <label for="input3"
              class="generator-form__label">
-        Word three*
+        Word three
         <input id="input3"
                class="generator-form__input"
                type="text"
                data-role="input"
                placeholder="Anything you want">
       </label>
-      <button id="generator-button"
-              class="generator-form__button">Generate</button>
+      <div class="generator-form__controls">
+        <button id="generator-submit"
+                class="generator-form__submit">Generate</button>
+        <input id="generator-reset"
+               type="reset"
+               value="Reset"
+               class="generator-form__reset">
+      </div>
       <div class="generator-form__additional-settings">
         <label for="shuffle-checkbox"
                class="generator-form__label generator-form__label_settings ">
@@ -55,13 +67,13 @@
       </div>
     </form>
     <div class="generator-result">
-      Result
+      <div id="generator-hint"
+           class="generator-result__hint">Press Generate</div>
+      <span id="generator-greetings"
+            class="generator-result__greetings">Do you like it,</span>
       <span id="generator-result"
-            class="generator-result__value">
-        [ press Generate ]
-      </span>
+            class="generator-result__value"></span>
     </div>
   </div>
-  <script type="application/javascript" src="js/username-generator.js"></script>
 </body>
 </html>
