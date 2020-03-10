@@ -1,7 +1,7 @@
 # username-generator
 Have you ever struck with username choosing? Let me show you something..
 
-..here - http://nbrylev.github.io/projects/username-generator
+..the meaningless (or meaningful) username generator - http://nbrylev.github.io/projects/username-generator
 
 ## WORK IN PROGRESS
 - [x] JS-version
