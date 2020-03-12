@@ -13,6 +13,7 @@ Have you ever struck with username choosing? Let me show you something..
 - [ ] Auto-generating
 - [ ] Generate more meaningful nicknames
 - [ ] Add more greetings sentences
+- [ ] Responsive design
 - [ ] (?) NodeJS with Express or any App-like
 - [ ] (?) sass/scss
 - [ ] (?) TS-version
