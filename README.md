@@ -13,13 +13,18 @@ Have you ever struck with username choosing? Let me show you something..
 - [ ] Auto-generating
 - [ ] Generate more meaningful nicknames
 - [ ] Add more greetings sentences
-- [ ] Responsive design
+- [x] Responsive design
+- [ ] Add possibility to add/remove inputs from form
 - [ ] (?) NodeJS with Express or any App-like
 - [ ] (?) sass/scss
 - [ ] (?) TS-version
 - [ ] (?) Use any framework
 
 ## CHANGELOG:
+
+### 1.1.1
+- Features
+    - Added a little bit of responsive styles
 
 ### 1.1.0
 - Features
