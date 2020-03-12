@@ -14,6 +14,7 @@ Have you ever struck with username choosing? Let me show you something..
 - [ ] Generate more meaningful nicknames
 - [ ] Add more greetings sentences
 - [x] Responsive design
+- [ ] Add possibility to add/remove inputs from form
 - [ ] (?) NodeJS with Express or any App-like
 - [ ] (?) sass/scss
 - [ ] (?) TS-version
