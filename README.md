@@ -22,6 +22,10 @@ Have you ever struck with username choosing? Let me show you something..
 
 ## CHANGELOG:
 
+### 1.1.2
+- Bugfixes
+    - Fixed bug with encoded input values
+
 ### 1.1.1
 - Features
     - Added a little bit of responsive styles
