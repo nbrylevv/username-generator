@@ -1,0 +1,38 @@
+.generator-result {
+  $root: &;
+
+  width: calc(50% - 20px);
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+
+  &__hint {
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  &__greetings {
+    display: none;
+  }
+
+  &__value {
+    display: block;
+    font-size: 250%;
+    font-weight: 600;
+  }
+
+  @media (max-width: 768px) {
+    width: 100%;
+    margin-top: 20px;
+    padding: 0 10px;
+    font-size: 28px;
+
+    #{$root}__hint {
+      font-size: 32px;
+    }
+
+    #{$root}__value {
+      font-size: 150%;
+    }
+  }
+}
