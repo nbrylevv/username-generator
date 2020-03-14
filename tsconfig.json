@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir": "./public/",
+    "noImplicitAny": true,
+    "target": "esnext",
+    "module": "esnext",
+    "jsx": "preserve",
+    "allowJs": true,
+    "strictNullChecks": true,
+    "strict": true,
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true
+  }
+}
