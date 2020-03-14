@@ -130,7 +130,7 @@ class UsernameGenerator {
 
     searchData.forEach(_ => {
       const [ key, value ] = _.split('=');
-      formInputs[key].value = value;
+      formInputs[key].value = decodeURI(value);
     });
     this.focusGenerateButton();
   }
